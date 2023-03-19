@@ -11,8 +11,8 @@ def firstpage():
 def infopage():
     return flask.render_template("info.html")
 
-@app.route('/DjKhaled')
-def Khaledpage():
-    return flask.render_template("DjKhaled.html")    
+@app.route('/projects')
+def projectpage():
+    return flask.render_template("projects.html")    
 
 app.run(debug=True)
